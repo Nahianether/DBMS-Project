@@ -1,0 +1,242 @@
+insert into BankAccount values('17115173428','Rahman',50000,'rahmankhan@gmail.com','01700102368');
+insert into BankAccount values('17115173429','Ether',50000,'akashsaha@gmail.com','01700196468');
+insert into BankAccount values('17115173430','Shahriar',50000,'shahriarhaque@gmail.com','01789654568');
+insert into BankAccount values('17115173431','Sharif',50000,'sharifhaque@gmail.com','01689564668');
+insert into BankAccount values('17115173432','Ferdous',50000,'ferdouszaman@hotmail.com','01554987768');
+insert into BankAccount values('17115173433','Rafi',50000,'rafi@hotmail.com','01711123868');
+insert into BankAccount values('17115173434','Fuad',50000,'fuad@gmail.com','01711123968');
+insert into BankAccount values('17115173435','Jim',50000,'jim@hotmail.com','01711123078');
+insert into BankAccount values('17115173436','Kamal',50000,'kamal@yahoo.com','01711123178');
+insert into BankAccount values('17115173437','Niloy',50000,'niloy@gmail.com','01711123278');
+insert into BankAccount values('17115173438','Sadhin',50000,'sadhin@gmail.com','01554987378');
+insert into BankAccount values('17115173439','Dip',50000,'dipsaha@yahoo.com','01711123478');
+insert into BankAccount values('17115173440','Pranto',50000,'pranto@hotmail.com','01711123578');
+insert into BankAccount values('17115173441','Pritom',50000,'pritom@hotmail.com','01711123678');
+insert into BankAccount values('17115173442','Avishak',50000,'avishak@gmail.com','01711123778');
+insert into BankAccount values('17115173443','Shammi',50000,'shammi@gmail.com','01711123878');
+insert into BankAccount values('17115173445','Shawon',50000,'shawon@gmail.com','01711123978');
+insert into BankAccount values('17115173446','Sanjida',50000,'sanju@gmail.com','01711123088');
+insert into BankAccount values('17115173447','Akash',50000,'akash@gmail.com','01711123188');
+insert into BankAccount values('17115173448','Nahid',50000,'nahid@gmail.com','01711123288');
+
+insert into userp values('Rahman','abcd','rahmankhan@gmail.com','Mohammadpur,Dhaka','01700102368','HA10-3045','17115173428','19993940593764936',2);
+insert into userp values('Ether','bcde','akashsaha@gmail.com','Mohammadpur,Dhaka','01700196468','LA10-0047','17115173429','19993940579631479',4);
+insert into userp values('Shahriar','cdef','shahriarhaque@gmail.com','Dhanmondi,Dhaka','01789654568','GA10-4698','17115173430','10603078910269875',7);
+insert into userp values('Sharif','defg','sharifhaque@gmail.com','Mirpur,Dhaka','01689564668','KA09-1947','17115173431','19997937941289745',3);
+insert into userp values('Ferdous','efgh','ferdouszaman@hotmail.com','Gulshan,Dhaka','01554987768','LA09-1597','17115173432','19930145987634982',4);
+insert into userp values('Rafi','abcd','rafi@hotmail.com','NotunBazarGulshan,Dhaka','01711123868','LA09-1896','17115173433','19930145987634983',4);
+insert into userp values('Fuad','ersd','fuad@gmail.com','Gulshan,Dhaka','01711123968','LA09-9196','17115173434','19930145987634984',3);
+insert into userp values('Jim','wert','jim@hotmail.com','Dhanmondi,Dhaka','01711123078','KA09-9196','17115173435','19930145987634985',0);
+insert into userp values('Kamal','1234','kamal@hotmail.com','Mohammadpur,Dhaka','01711123178','GA09-9196','17115173436','19930145987634986',2);
+insert into userp values('Niloy','derf','niloy@hotmail.com','Badda,Dhaka','01711123278','KA23-9896','17115173437','19930145987634987',3);
+
+
+
+
+insert into admin values('Sadhin','dqsw','sadhin@gmail.com','Dhanmondi,Dhaka','01554987378','17115173438','19930145987634988');
+insert into admin values('Dip','redd','dipsaha@yahoo.com','BegumRokeyaShoroni,Dhaka','01711123478','17115173439','19930145987634989');
+insert into admin values('Pranto','abcd','pranto@hotmail.com','ShopnoKaziPara,Dhaka','01711123578','17115173440','19930145987634091');
+insert into admin values('Pritom','atrd','pritom@hotmail.com','HatirJhil,Dhaka','01711123678','17115173441','19930145987634092');
+insert into admin values('Avishak','uiod','avishak@gmail.com','BorobagMogBazar,Dhaka','01711123778','17115173442','19930145987634093');
+insert into admin values('Shammi','abcd','shammi@gmail.com','Rampura,Dhaka','01711123878','17115173443','19930145987634094');
+insert into admin values('Shawon','ertr','shawon@gmail.com','Uttora,Dhaka','01711123978','17115173445','19930145987634095');
+insert into admin values('Sanjida','43er','sanju@gmail.com','Shekertek,Dhaka','01711123088','17115173446','19930145987634096');
+insert into admin values('Akash','ertd','akash@gmail.com','Jigatola,Dhaka','01711123188','17115173447','19930145987634097');
+insert into admin values('Nahid','abcd','nahid@gmail.com','Jigatola,Dhaka','01711123288','17115173448','19930145987634098');
+
+
+insert into Car values('HA10-3045','109035','2016','Corolla',5.00,250.00,10.00);
+insert into Car values('GA10-4698','109036','2015','Axio',5.00,240.00,10.00);
+insert into Car values('KA09-1947','109037','2017','Premio',5.00,280.00,10.00);
+insert into Car values('LA10-0047','109038','2010','Corolla',5.00,250.00,10.00);
+insert into Car values('LA09-1597','109039','2011','Corolla',5.00,250.00,10.00);
+insert into Car values('LA09-1896','109040','2006','Premio',5.00,280.00,10.00);
+insert into Car values('LA09-9196','109041','2011','Premio',5.00,280.00,10.00);
+insert into Car values('KA09-9196','109042','2012','Premio',5.00,280.00,10.00);
+insert into Car values('GA09-9196','109043','2009','Premio',5.00,280.00,10.00);
+insert into Car values('KA23-9896','109045','2013','Premio',5.00,280.00,10.00);
+
+
+insert into Parking values('A',7,'Hotel Shewrapara,Dhaka',1,7.00,300.00,13.00,20,'2017-12-02 3.04','2017-12-29 12.03','19930145987634988');
+insert into Parking values('H',1,'Hotel Shewrapara,Dhaka',0,7.50,290.00,11.00,20,'2017-12-18 6.20','2017-12-29 21.50','19930145987634989');
+insert into Parking values('A',8,'Hotel Shewrapara,Dhaka',0,6.50,200.00,12.00,20,'2017-12-18 1.00','2017-12-28 21.00','19930145987634988');
+insert into Parking values('C',5,'Hotel Shewrapara,Dhaka',0,11.50,320.00,13.00,20,'2017-12-15 6.20','2017-12-30 12.50','19930145987634092');
+insert into Parking values('B',6,'11 Rd No 13, Uttara,Dhaka 1230',1,8.00,350.00,13.00,30,'2017-12-03 21.00','2017-12-28 21.00','19930145987634092');
+insert into Parking values('C',3,'11 Rd No 13, Uttara,Dhaka 1230',1,5.00,400.00,14.00,45,'2017-12-12 2.30','2017-12-29 5.00','19930145987634092');
+insert into Parking values('G',2,'3 Rd No 11, Uttara,Dhaka 1230',0,7.50,311.00,10.00,60,'2017-12-04 21.00','2017-12-30 12.00','19930145987634098');
+insert into Parking values('A',3,'2 Rd No 10, Uttara,Dhaka 1230',0,6.30,333.00,9.00,60,'2017-12-07 6.20','2017-12-28 23.50','19930145987634096');
+insert into Parking values('G',2,'250/1,Shere Bangla Road,Dhanmondi-15,Dhaka',1,7.50,300.00,13.00,89,'2017-12-04 5.00','2017-12-30 1.20','19930145987634095');
+insert into Parking values('D',1,'250/1,Shere Bangla Road,Dhanmondi-15,Dhaka',1,7.50,320.00,13.00,60,'2017-12-12 6.20','2017-12-28 21.50','19930145987634093');
+insert into Parking values('E',2,'Keari Plaza,Dhanmondi-15,Dhaka',0,7.50,320.00,13.00,60,'2017-12-21 6.20','2017-12-30 21.50','19930145987634093');
+insert into Parking values('B',7,'Keari Plaza,Dhanmondi-15,Dhaka',0,7.50,320.00,13.00,60,'2017-12-25 5.00','2017-12-29 05.50','19930145987634093');
+insert into Parking values('F',5,'571/1,Shewrapara,Zamans Property,Dhaka',1,7.50,320.00,13.00,60,'2017-12-11 2.00','2017-12-28 18.00','19930145987634095');
+insert into Parking values('F',4,'571/1,Shewrapara,Zamans Property,Dhaka',0,7.50,320.00,13.00,60,'2017-12-18 6.20','2017-12-29 21.50','19930145987634096');
+
+
+
+insert into Park_c values('HA10-3045','A',7,'2017-12-04 3.04','Hotel Shewrapara,Dhaka');
+insert into Park_c values('LA09-1597','B',6,'2017-12-03 23.20','11 Rd No 13, Uttara,Dhaka 1230');
+insert into Park_c values('LA10-0047','F',5,'2017-12-18 12.20','571/1,Shewrapara,Zamans Property,Dhaka');
+insert into Park_c values('KA09-1947','G',2,'2017-12-05 5.00','250/1,Shere Bangla Road,Dhanmondi-15,Dhaka');
+insert into Park_c values('LA09-1896','C',3,'2017-12-13 1.30','11 Rd No 13, Uttara,Dhaka 1230');
+insert into Park_c values('KA09-9196','D',1,'2017-12-18 12.20','250/1,Shere Bangla Road,Dhanmondi-15,Dhaka');
+insert into Park_c values('KA23-9896','E',2,'2017-12-23 12.20','Keari Plaza,Dhanmondi-15,Dhaka');
+
+
+insert into Rent values('19930145987634988','A',7,'Hotel Shewrapara,Dhaka');
+insert into Rent values('19930145987634092','B',6,'11 Rd No 13, Uttara,Dhaka 1230');
+insert into Rent values('19930145987634095','G',2,'250/1,Shere Bangla Road,Dhanmondi-15,Dhaka');
+insert into Rent values('19930145987634092','C',3,'11 Rd No 13, Uttara,Dhaka 1230');
+insert into Rent values('19930145987634095','F',5,'571/1,Shewrapara,Zamans Property,Dhaka');
+insert into Rent values('19930145987634093','D',1,'250/1,Shere Bangla Road,Dhanmondi-15,Dhaka');
+insert into Rent values('19930145987634093','E',2,'Keari Plaza,Dhanmondi-15,Dhaka');
+insert into Rent values('19930145987634096','F',4,'571/1,Shewrapara,Zamans Property,Dhaka');
+insert into Rent values('19930145987634098','G',2,'3 Rd No 11, Uttara,Dhaka 1230');
+insert into Rent values('19930145987634989','H',1,'Hotel Shewrapara,Dhaka');
+insert into Rent values('19930145987634096','A',3,'2 Rd No 10, Uttara,Dhaka 1230');
+
+
+
+
+
+//ei porjonto insert hobe bakigula insert hobena......
+
+
+insert into Receiver values('17115171421','199036923234132');
+insert into Receiver values('17115271521','18802324432846');
+insert into Receiver values('12115171461','10061276545407');
+insert into Receiver values('17115171423','199803213587215');
+insert into Receiver values('17115173432','188915987543270');
+
+insert into Receiver values('17115173433','188915987543270');
+insert into Receiver values('17115173434','190915987543270');
+insert into Receiver values('17115173435','191915987543270');
+insert into Receiver values('17115173436','192915987543270');
+insert into Receiver values('17115173437','139915987543270');
+insert into Receiver values('17115173438','194915987543270');
+insert into Receiver values('17115173439','195915987543270');
+insert into Receiver values('17115173440','196915987543270');
+insert into Receiver values('17115173441','197915987543270');
+insert into Receiver values('17115173442','198915987543270');
+
+
+
+
+
+insert into Pay values('17115171421','HA10-3045');
+insert into Pay values('17115271521','LA10-0047');
+insert into Pay values('12115171461','GA10-4698');
+insert into Pay values('17115171423','KA09-1947');
+insert into Pay values('17115173432','LA09-1597');
+
+insert into Pay values('17115173433','LA09-1896');
+insert into Pay values('17115173434','GA09-1597');
+insert into Pay values('17115173435','KA09-1597');
+insert into Pay values('17115173436','LA04-1597');
+insert into Pay values('17115173437','LA01-1297');
+insert into Pay values('17115173438','GA09-1607');
+insert into Pay values('17115173439','KA09-1617');
+insert into Pay values('17115173440','LA09-1627');
+insert into Pay values('17115173441','GA09-1647');
+insert into Pay values('17115173442','LA09-1667');
+
+
+
+
+
+insert into Search values('A',7,'Hotel Shewrapara,Dhaka');
+insert into Search values('B',6,'11 Rd No 13, Uttara,Dhaka 1230');
+insert into Search values('G',2,'250/1,Shere Bangla Road,Dhanmondi-15,Dhaka');
+insert into Search values('C',3,'House #02,Kazi Nuruzzaman Road,Dhanmondi,Dhaka');
+insert into Search values('F',5,'571/1,Shewrapara,Zamans Property,Dhaka');
+
+insert into Search values('D',1,'5/6 Nikunjo2,Dhaka');
+insert into Search values('E',2,'10 Adabor Shyamoli,Dhaka');
+insert into Search values('F',4,'ShonkorPlaza,Dhaka');
+insert into Search values('G',2,'19 AbahoniMath,Dhaka');
+insert into Search values('H',1,'BDR 1 Azimpur,Dhaka');
+insert into Search values('A',3,'khilkhetRailgate,Dhaka');
+insert into Search values('C',5,'Mirpur 2 HeartFoundation,Dhaka');
+insert into Search values('B',7,'Mirpur 10 ShahAli Market,Dhaka');
+insert into Search values('A',8,'Malibag DoctorGoli,Dhaka');
+insert into Search values('A',1,'TSCAzimpur,Dhaka');
+
+
+
+
+
+insert into ReleaseC values('HA10-3045','2017-12-05 10.00');
+insert into ReleaseC values('LA09-1597','2017-12-04 21.00');
+insert into releasec values('KA09-1947','2017-12-07 1.00');
+insert into releasec values('GA10-4698','2017-12-15 4.00');
+insert into releasec values('LA10-0047','2017-12-18 21.00');
+
+insert into releasec values('LA09-1896','2017-12-18 12.20');
+insert into releasec values('GA09-1597','2017-12-18 12.20');
+insert into releasec values('KA09-1597','2017-12-18 12.20');
+insert into releasec values('LA04-1597','2017-12-18 12.20');
+insert into releasec values('LA01-1297','2017-12-18 12.20');
+insert into releasec values('GA09-1607','2017-12-18 12.20');
+insert into releasec values('KA09-1617','2017-12-18 12.20');
+insert into releasec values('LA09-1627','2017-12-18 12.20');
+insert into releasec values('GA09-1647','2017-12-18 12.20');
+insert into releasec values('LA09-1667','2017-12-18 12.20');
+
+
+
+insert into Address values('B',6,'11 Rd No 13, Uttara,Dhaka 1230');
+insert into Address values('A',7,'Hotel Shewrapara,Dhaka');
+insert into Address values('G',2,'250/1,Shere Bangla Road,Dhanmondi-15,Dhaka');
+insert into Address values('C',3,'House #02,Kazi Nuruzzaman Road,Dhanmondi,Dhaka');
+insert into Address values('F',5,'571/1,Shewrapara,Zamans Property,Dhaka');
+
+insert into Address values('D',1,'5/6 Nikunjo2,Dhaka');
+insert into Address values('E',2,'10 Adabor Shyamoli,Dhaka');
+insert into Address values('F',4,'ShonkorPlaza,Dhaka');
+insert into Address values('G',2,'19 AbahoniMath,Dhaka');
+insert into Address values('H',1,'BDR 1 Azimpur,Dhaka');
+insert into Address values('A',3,'khilkhetRailgate,Dhaka');
+insert into Address values('C',5,'Mirpur 2 HeartFoundation,Dhaka');
+insert into Address values('B',7,'Mirpur 10 ShahAli Market,Dhaka');
+insert into Address values('A',8,'Malibag DoctorGoli,Dhaka');
+insert into Address values('A',1,'TSCAzimpur,Dhaka');
+
+
+
+
+
+insert into Drive values('HA10-3045');
+insert into Drive values('KA09-1947');
+insert into Drive values('LA10-0047');
+insert into Drive values('GA10-4698');
+insert into Drive values('LA09-1597');
+
+insert into Drive values('LA09-1896');
+insert into Drive values('GA09-1597');
+insert into Drive values('KA09-1597');
+insert into Drive values('LA04-1597');
+insert into Drive values('LA01-1297');
+insert into Drive values('GA09-1607');
+insert into Drive values('KA09-1617');
+insert into Drive values('LA09-1627');
+insert into Drive values('GA09-1647');
+insert into Drive values('LA09-1667');
+
+
+insert into Park_c values('KA09-1597','F',4,'2017-12-18 12.20','ShonkorPlaza,Dhaka');
+insert into Park_c values('LA04-1597','G',2,'2017-12-18 12.20','19 AbahoniMath,Dhaka');
+insert into Park_c values('LA01-1297','H',1,'2017-12-18 12.20','BDR 1 Azimpur,Dhaka');
+insert into Park_c values('GA09-1607','A',3,'2017-12-18 12.20','khilkhetRailgate,Dhaka');
+insert into Park_c values('KA09-1617','C',5,'2017-12-18 12.20','Mirpur 2 HeartFoundation,Dhaka');
+insert into Park_c values('LA09-1627','B',7,'2017-12-18 12.20','Mirpur 10 ShahAli Market,Dhaka');
+insert into Park_c values('GA09-1647','A',8,'2017-12-18 12.20','Malibag DoctorGoli,Dhaka');
+insert into Park_c values('LA09-1667','A',1,'2017-12-18 12.20','TSCAzimpur,Dhaka');
+
+
+insert into Rent values('195915987543270','C',5,'Mirpur 2 HeartFoundation,Dhaka');
+insert into Rent values('196915987543270','B',7,'Mirpur 10 ShahAli Market,Dhaka');
+insert into Rent values('197915987543270','A',8,'Malibag DoctorGoli,Dhaka');
+insert into Rent values('198915987543270','A',1,'TSCAzimpur,Dhaka');
+
+         
+

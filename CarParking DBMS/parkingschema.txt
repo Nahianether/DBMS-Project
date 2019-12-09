@@ -1,0 +1,120 @@
+Create Table BankAccount(
+       		AC_No                 				varchar(20) Not Null,
+       		AC_Name               				varchar(20) Not Null,
+      		Balance           	 			numeric(10,2),
+       		AEmail                				varchar(30),
+       		AMobileNo             				varchar(11),
+       		PRIMARY KEY(AC_No)
+);
+
+Create Table Userp(
+		Username 				Varchar(50) 	Not Null,
+                Password                                Varchar(25)     Not Null,
+		Email 					Varchar(30),
+		Address 				Varchar(100) 	Not Null,
+		Mobile_No 				Char(11) 	Not Null,
+		Car_No 					Varchar(20) Not Null,
+                AC_No                                   Varchar(20),
+		U_NID 					Varchar(20) 	Not Null,
+                PastParking_Count 			Int 		DEFAULT 0,
+        	Primary Key(Car_No),
+                Foreign Key(AC_No) references BankAccount(AC_No)		
+);
+
+Create Table Car(
+                Car_No 						Varchar(20)  NOT NULL  ,
+		Reg_No 						Varchar(20) 	Not Null,
+		Model_No 					varchar(20),
+		Company 					varchar(30),
+		C_Hight 					Numeric(4,2) 	Not Null,
+		C_Width 					Numeric(4,2) 	Not Null,
+		C_Length 					Numeric(4,2) 	Not Null,
+        
+                PRIMARY KEY(Car_No),
+                FOREIGN KEY(Car_No) references Userp(Car_No)
+);
+
+Create Table Admin(
+		Username 					Varchar(50) 	Not Null,
+                Password                                        Varchar(25)     Not Null,
+		Email 						Varchar(30),
+		Address 					Varchar(100) 	Not Null,
+		Mobile_No 					Char(11) 	Not Null,
+                AC_No                                   	Varchar(20)     Not Null,
+		A_NID 						Varchar(20) 	Not Null,
+       	        Primary Key(A_NID),
+                Foreign Key(AC_No) references BankAccount(AC_No)
+);
+Create Table Parking(
+		Parking_Block 					Varchar(10) 	Not Null,
+		Parking_No 					Int 		Not Null,
+                Location 					Varchar(100)	Not Null,
+		IsEmpty 					Int 		Not Null,
+		Parking_Hight 					Numeric(4,2) 	Not Null,
+		Parking_Width 					Numeric(4,2) 	Not Null,
+		Parking_Length 					Numeric(4,2) 	Not Null,
+		RentAmount 					Int Default 0 	Not Null,
+                aDate                                           TimeStamp, 
+                nDate                                           TimeStamp,  
+                A_NID 						Varchar(20) 	Not Null,
+        	PRIMARY KEY(Parking_Block,Parking_No,Location,A_NID),
+                Foreign key(A_NID) references Admin(A_NID)
+);
+
+Create Table Park_c(
+        	Car_No 						Varchar(20),
+        	Parking_Block 					Varchar(10),
+		Parking_No 					Int,
+                pDate                                           TimeStamp,
+                Location 					Varchar(100)	Not Null,
+        	PRIMARY KEY(Car_No,Parking_Block,Parking_No,Location),
+        	FOREIGN KEY(Car_No) REFERENCES Userp(Car_No) on delete cascade,
+        	FOREIGN KEY(Parking_Block,Parking_No,Location) REFERENCES Parking		
+		(Parking_Block,Parking_No,Location) on delete cascade
+);
+Create Table Rent(
+        	A_NID 						Varchar(20),
+        	Parking_Block 					Varchar(10),
+		Parking_No 					Int,
+                Location 					Varchar(100)	Not Null,
+        	PRIMARY KEY(A_NID,Parking_Block,Parking_No,Location),
+        	FOREIGN KEY(A_NID) REFERENCES Admin(A_NID) on delete cascade,
+        	FOREIGN KEY(Parking_Block,Parking_No,Location) REFERENCES Parking		
+		(Parking_Block,Parking_No,Location) on delete cascade
+);
+
+Create Table ReleaseC(
+       		Car_No 						Varchar(20) 	Not Null,
+                nDate                                           TimeStamp,
+        	PRIMARY KEY(Car_No,nDate),
+        	FOREIGN KEY(Car_No) REFERENCES Userp(Car_No) on delete cascade
+);
+
+
+Create Table Close_Rent(
+        	A_NID 						Varchar(20),
+        	Parking_Block 					Varchar(10),
+		Parking_No 					Int,
+                Location 					Varchar(100)	Not Null,
+        	PRIMARY KEY(A_NID,Parking_Block,Parking_No,Location),
+        	FOREIGN KEY(A_NID) REFERENCES Admin(A_NID) on delete cascade,
+        	FOREIGN KEY(Parking_Block,Parking_No,Location) REFERENCES Parking		
+		(Parking_Block,Parking_No,Location) on delete cascade
+);
+
+Create Table Receiver(
+       		AC_No        					varchar(20),
+       		A_NID        					varchar(20),
+       		Primary Key(AC_No,A_NID),
+       		Foreign Key(AC_No) references BankAccount(AC_No) on delete cascade,
+       		Foreign Key(A_NID) references Admin(A_NID) on delete cascade
+);
+
+
+Create Table Pay(
+       		AC_No        					varchar(20),
+                Car_No 						Varchar(20),
+       		Primary Key(AC_No),
+       		Foreign Key(AC_No) references BankAccount(AC_No) on delete cascade,
+       		Foreign Key(Car_No) references Userp(Car_No) on delete cascade
+);
